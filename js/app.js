@@ -3857,16 +3857,6 @@
 		const seconds = Math.floor(time % 60);
 		return `${minutes < 10 ? '0' : ''}${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
 	}
-	//==========GSAP==============================================================================================================================================
-	gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
-
-	ScrollSmoother.create({
-		wrapper: '.wrapper',
-		content: '.scroll-page',
-		smooth: 1.5,
-		effects: true
-	});
-
 
 
 
